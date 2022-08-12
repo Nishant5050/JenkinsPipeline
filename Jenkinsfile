@@ -1,6 +1,6 @@
 pipeline {
 
-agent any 
+agent uq88 
 
 stages{
 
@@ -14,11 +14,11 @@ stages{
 	}
 }
 	
-	stage('Deploy'){
+	stage('build'){
 
 		steps	{
 		
-			 echo " Deploying  my code"
+			sh 'mvn clean package'
 
 	}
 }
