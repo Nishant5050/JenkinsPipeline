@@ -1,6 +1,6 @@
 pipeline {
 
-	agent {	uq88 }
+	agent {	'uq88' }
 stages{
 
 	stage('SCM'){
