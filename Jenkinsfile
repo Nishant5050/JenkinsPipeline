@@ -8,8 +8,8 @@ stages{
 
 		steps	{
 	
-			echo " git Pull my code step 1"
-			echo " git Pull my code step 2"
+			echo " git Pull my code for java code"
+			git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git/'
 	
 	}
 }
