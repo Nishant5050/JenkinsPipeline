@@ -7,7 +7,7 @@ stages{
 
 		steps	{
 	
-			echo " git Pull my code for java code"
+			echo " git Pull my code for java code "
 			git 'https://github.com/vimallinuxworld13/simple-java-maven-app.git/'
 	
 	}
