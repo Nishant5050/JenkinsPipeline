@@ -1,6 +1,6 @@
 pipeline {
 
-agent any
+agent uq88
 
 stages{
 
