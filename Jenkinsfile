@@ -4,30 +4,31 @@ agent any
 
 stages{
 
-stage('SCM'){
+	stage('SCM'){
 
-	steps	{
+		steps	{
 	
-		echo " git Pull my code step 1"
-		echo " git Pull my code step 2"
-
+			echo " git Pull my code step 1"
+			echo " git Pull my code step 2"
+	
+	}
 }
-}
+	
+	stage('Deploy'){
 
-stage('Deploy'){
-
-	steps	{
+		steps	{
 		
-		 echo " Deploying  my code"
+			 echo " Deploying  my code"
 
 	}
 }
 
-stage('Test') {
-  		steps {
-			 echo " Test my code"
+		stage('Test') {
+  			
+			steps {
+				 echo " Test my code"
 		}
-}
+	}
 
 
 }
