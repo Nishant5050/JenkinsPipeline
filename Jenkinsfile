@@ -1,6 +1,6 @@
 pipeline {
 
-agent Linuxslave1
+agent uq88
 
 stages{
 
